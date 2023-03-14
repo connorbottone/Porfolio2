@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { StyledMainLeft,StyledHeader, StyledImg,StyledMain,StyledMainAbout,StyledImgHeader } from './styles/StyledMian';
  import Main from './pages/Main';
+ import Contactme from './pages/Contactme';
 const nav = ["Aboutme", "Portfolio", "Contactme", "Resume" ]
 
 
@@ -11,6 +12,8 @@ function App() {
   return (
     <div>
     {currentPage === "Main" && <Main currentPage={currentPage} setCurrentPage={setCurrentPage} />}
+    {currentPage === "Contactme" && <Contactme currentPage={currentPage} setCurrentPage={setCurrentPage} />}
+
     </div>
   );
 }

@@ -1,0 +1,134 @@
+.App form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    padding: 40px;
+    background-color:#0D395C;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #0f0f0ffb;
+    height: 65%;
+    width: 25%;
+    
+    margin-left: 25%;
+    border: 2px solid #E0D865;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 550px;
+  }
+
+  
+  .App input[type='text'] {
+    width: 90%;
+    padding: 20px;
+    outline: none;
+    border-radius: 35px;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border: 1px solid #E0D865;
+    
+    transition: 0.1s;
+   
+    margin-bottom: 30px;
+    position: relative;
+    margin: 30px;
+    margin-top: 70px;
+  width: 350px;
+
+      
+  }
+  .App input[name='message'] {
+    width: 90%;
+    padding: 40px;
+    outline: none;
+    border-radius: 35px;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border: 2px solid #E0D865;
+    transition: 0.1s;
+   
+    margin-bottom: 30px;
+    position: relative;
+    margin: 40px;
+  width: 320px;
+
+      
+  }
+  
+  
+  .App button[type='submit'] {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #4c93af;
+    color:#E0D865;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    border: 2px solid#E0D865;
+    font-weight: bold;
+   
+
+  }
+  
+  .App button[type='submit']:hover {
+    background-color: #f09116;
+    box-shadow: 7px 7px 7px #ccc;
+    
+    color: #4c93af ;
+  }
+  @media screen and (max-width: 1340px) {
+    .App form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5%;
+      padding: 40px;
+      background-color: rgb(250, 208, 157);
+      border-radius: 10px;
+      box-shadow: 0 1px 6px rgba(168, 23, 23, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+      height: 30%;
+      width: 55%;
+      margin-left: 20%;
+      border: 2px solid rgb(184, 132, 65);
+    }
+    
+  }
+  @media screen and (max-width: 1010px) {
+    .App form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25%;
+      padding: 30px;
+      background-color: rgb(250, 208, 157);
+      border-radius: 10px;
+      box-shadow: 0 1px 6px rgba(168, 23, 23, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+      height: 50%;
+      width: 90%;
+      margin-left: 5%;
+      border: 2px solid rgb(184, 132, 65);
+    }
+    .App input[type='text'] {
+      width: 10%;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      border-radius: 50px;
+      border: none;
+      /* box-shadow: 0px 0px 5px #ccc; */
+      height: auto;
+      inline-size: 200px;
+      overflow-wrap: break-word; 
+      border: 2px solid bisque;
+        
+    }
+    
+  }
+  input::placeholder {
+    color: yellow;
+  }

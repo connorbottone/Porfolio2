@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import img from '../images/portfolio2.PNG';
 import headerimg from '../images/header2.PNG';
+import cont from '../images/contact2.jpg';
 
 export const StyledImgHeader = styled.div`
 width: 15%;
@@ -16,6 +17,7 @@ position: absolute;
 top: 3;
 left: 2;
 margin-top: -97vh;
+cursor: pointer;
 
 `;
 export const StyledHeader = styled.div`
@@ -81,3 +83,18 @@ margin-left: 105vh;
 z-index: 1;
 `;
    
+
+//contact me
+
+export const StyledImgContact = styled.div`
+width: 30%;
+height:50%;
+background-image: url(${cont}) ;
+box-shadow: 5px 10px 10px 5px;
+
+Z-index: 1;
+margin-top: -47%;
+margin-left: 15%;
+border-radius: 100px 100px 100px 100px;
+
+`;
