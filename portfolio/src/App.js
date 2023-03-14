@@ -1,20 +1,17 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
-import { StyledMainLeft, StyledImg,StyledMain,StyledMainAbout } from './styles/StyledMian';
+import { StyledMainLeft,StyledHeader, StyledImg,StyledMain,StyledMainAbout,StyledImgHeader } from './styles/StyledMian';
+ import Main from './pages/Main';
+const nav = ["Aboutme", "Portfolio", "Contactme", "Resume" ]
+
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("Main");
   return (
-    
-<StyledMain>
-
-    <StyledMainLeft>
-      
-    </StyledMainLeft>
-
-<StyledImg/>
-<StyledMainAbout>I am fascinated by technogliy and all of its advanvtc ment looing to gr ow in the field </StyledMainAbout>    
-</StyledMain>
-
+    <div>
+    {currentPage === "Main" && <Main currentPage={currentPage} setCurrentPage={setCurrentPage} />}
+    </div>
   );
 }
 
