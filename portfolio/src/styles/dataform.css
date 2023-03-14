@@ -33,7 +33,7 @@
    
     margin-bottom: 30px;
     position: relative;
-    margin: 30px;
+    margin: 10px;
     margin-top: 70px;
   width: 350px;
 
@@ -41,7 +41,7 @@
   }
   .App input[name='message'] {
     width: 90%;
-    padding: 40px;
+    padding: 50px;
     outline: none;
     border-radius: 35px;
     color: #000;
@@ -68,7 +68,7 @@
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: px;
     border: 2px solid#E0D865;
     font-weight: bold;
    

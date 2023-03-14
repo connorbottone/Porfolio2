@@ -1,0 +1,64 @@
+.resume{
+  
+    margin-left: 150px;
+    margin-top: 25px;
+}
+#pdf{
+    margin-left: 820px;
+margin-top: -55px;
+    width: 40%;
+    padding: 3px;
+    font-size: 20px;
+    background-color: #4c93af;
+    color: #fa930d;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    
+   
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+
+#pdf:hover {
+    background-color: #f09116;
+    box-shadow: 7px 7px 7px #ccc;
+    
+    color: #4c93af ;
+  }
+  
+    
+  @media screen and (max-width: 900px) {
+    .resume {
+      margin-left: 50px;
+      margin-top: 25px;
+    }
+    object[data$=".pdf"] {
+        width: 140%;
+        height: 700px;
+      }
+    #pdf {
+      margin-left: 50px;
+      margin-top: 10px;
+      width: 70%;
+    }
+  }
+  .card-outer2 {
+    width: 600px;
+    height: 300px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 90px ;
+    margin-top: -1300px;
+    z-index: 5;
+    
+    
+  }
+    .skills {
+      width: 80px;
+      height: 80px;
+      border-radius: 20%;
+      margin: 25px;
+      
+    }

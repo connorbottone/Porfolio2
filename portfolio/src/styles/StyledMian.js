@@ -2,10 +2,11 @@ import styled from 'styled-components';
 import img from '../images/portfolio2.PNG';
 import headerimg from '../images/header2.PNG';
 import cont from '../images/contact2.jpg';
-
+import rut from '../images/rutgerse.PNG';
+import cert from '../images/certy.PNG';
 export const StyledImgHeader = styled.div`
 width: 15%;
-height: 8%;
+height: 9.5%;
 background-image: url(${headerimg}) ;
 
 
@@ -23,6 +24,8 @@ cursor: pointer;
 export const StyledHeader = styled.div`
 width: 15%;
 height: 8%;
+font-family: Pixel, Arial, Helvetica, sans-serif;
+font-size: 1.2rem;
 z-index: 1;
 margin-left: 45%;
 border-radius: 0px 100px 100px 0px;
@@ -31,7 +34,10 @@ cursor: pointer;
 top: 3;
 left: ${(props) => props.index * 13}%; /* Add this line to set the left value based on the index */
 margin-top: -93vh;
-
+hover: {
+    color: #000;
+    }
+    
 
 
 `;
@@ -55,6 +61,7 @@ export const StyledMain = styled.div`
     height: 100vh;
     dipplay: flex;
     background-color: #E0D865;
+    Z-index: -1;
     
     `;
 
@@ -93,8 +100,46 @@ background-image: url(${cont}) ;
 box-shadow: 5px 10px 10px 5px;
 
 Z-index: 1;
-margin-top: -47%;
+margin-top: -40%;
 margin-left: 15%;
 border-radius: 100px 100px 100px 100px;
+
+`;
+export const StyledResume = styled.div`
+font-family: Pixel, Arial, Helvetica, sans-serif;
+font-size: 2.5rem;
+letter-spacing: 0.7px;
+color:#ffffff;
+
+
+
+margin-top: -75vh;
+margin-left: 75vh;
+z-index: 1;
+`;
+
+
+export const StyledImgRut = styled.div`
+width: 28.5%;
+height:42%;
+background-image: url(${rut}) ;
+box-shadow: 5px 10px 10px 5px;
+
+Z-index: 1;
+margin-top: -25%;
+margin-left: 7%;
+
+
+`;
+export const StyledImgCert = styled.div`
+width: 28.5%;
+height:42%;
+background-image: url(${cert}) ;
+box-shadow: 5px 10px 10px 5px;
+
+Z-index: 1;
+margin-top: -50%;
+margin-left: 7%;
+
 
 `;
